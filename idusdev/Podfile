@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '11.0'
+use_frameworks!
+target 'idusdev' do
+    
+  ## Image load Helper
+  pod 'Kingfisher', '~> 4.8.0'
+  
+  ## Network Helper
+  pod 'Alamofire'
+  
+  ## Progress
+  pod 'SVProgressHUD'
+
+	## Star Rating
+	pod 'Cosmos', '~> 22.1'
+  
+end
